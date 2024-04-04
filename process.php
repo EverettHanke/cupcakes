@@ -12,6 +12,10 @@
 </body>
 </html>
 <?php
-
+$flavors = $_POST['flavor'];
+foreach($flavors as $flavor)
+{
+    echo "<p>$flavor </p>";
+}
 
 ?>
