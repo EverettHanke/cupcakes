@@ -9,11 +9,12 @@
 <div>
     <form action="process.php" method="post">
         <h1>Cupcake Fundraiser</h1>
-        <h2>Everett Hanke</h2>
+        <label>Your Name: </label>
+        <input type='text' name='name'>
         <p>Cupcake Flavors: </p>
 
         <input type='checkbox' name='flavor[]' value='GrassHopper'>
-        <label>The GrassHopper 2</label>
+        <label>The GrassHopper</label>
 
         <input type='checkbox' name='flavor[]' value='Whiskey Maple Bacon'>
         <label>Whiskey Maple Bacon</label>
@@ -34,7 +35,6 @@
         <label>Tiramisu</label>
 
         <input type='submit' name='submit'>
-
     </form>
 </div>
 </body>
