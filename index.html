@@ -3,39 +3,52 @@
 <html lang=en'>
 <head>
     <meta charset='UTF-8'>
-    <title>Eat that cupcake 445</title>
+    <title>Cupcake form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div>
-    <form action="process.php" method="post">
-        <h1>Cupcake Fundraiser</h1>
-        <label>Your Name: </label>
-        <input type='text' name='name'>
-        <p>Cupcake Flavors: </p>
+    <img src="images/cutecupcake.png" width="100px" height="100px" alt="cupcake logo">
+    <div class="formDiv">
+        <form action="process.php" method="post">
+            <h1>Cupcake Fundraiser</h1>
+            <label>Your Name: </label>
+            <input type='text' name='name'>
+            <p>Cupcake Flavors: </p>
+            <div class="options">
+                <input type='checkbox' name='flavor[]' value='GrassHopper'>
+                <label>The GrassHopper</label>
+            </div>
 
-        <input type='checkbox' name='flavor[]' value='GrassHopper'>
-        <label>The GrassHopper</label>
-
-        <input type='checkbox' name='flavor[]' value='Whiskey Maple Bacon'>
-        <label>Whiskey Maple Bacon</label>
-
-        <input type='checkbox' name='flavor[]' value='Carrot Walnut'>
-        <label>Carrot Walnut</label>
-
-        <input type='checkbox' name='flavor[]' value='Salted Caramel Cupcake'>
-        <label>Salted Caramel Cupcake</label>
-
-        <input type='checkbox' name='flavor[]' value='Red Velvet'>
-        <label>Red Velvet</label>
-
-        <input type='checkbox' name='flavor[]' value='Lemon Drop'>
-        <label>Lemon Drop</label>
-
-        <input type='checkbox' name='flavor[]' value='Tiramisu'>
-        <label>Tiramisu</label>
-
-        <input type='submit' name='submit'>
-    </form>
+            <div class="options">
+                <input type='checkbox' name='flavor[]' value='Whiskey Maple Bacon'>
+                <label>Whiskey Maple Bacon</label>
+            </div>
+            <div class="options">
+                <input type='checkbox' name='flavor[]' value='Carrot Walnut'>
+                <label>Carrot Walnut</label>
+            </div>
+            <div class="options">
+                <input type='checkbox' name='flavor[]' value='Salted Caramel Cupcake'>
+                <label>Salted Caramel Cupcake</label>
+            </div>
+            <div class="options">
+                <input type='checkbox' name='flavor[]' value='Red Velvet'>
+                <label>Red Velvet</label>
+            </div>
+            <div class="options">
+                <input type='checkbox' name='flavor[]' value='Lemon Drop'>
+                <label>Lemon Drop</label>
+            </div>
+            <div class="options">
+                <input type='checkbox' name='flavor[]' value='Tiramisu'>
+                <label>Tiramisu</label>
+            </div>
+            <div class="options">
+                <input type='submit' name='submit'>
+            </div>
+        </form>
+    </div>
 </div>
 </body>
 </html>

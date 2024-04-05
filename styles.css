@@ -1,0 +1,40 @@
+form
+{
+    margin-top: 10%;
+    background-color: white;
+    padding:10%;
+    border: solid 2px black;
+    border-radius: 5%;
+}
+.formDiv
+{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+html
+{
+    background-image: url("images/cupcakepaper.jpg");
+}
+h1:hover
+{
+    /*
+    testing animation for fun :)
+     */
+    animation: pulse 2s none;
+}
+@keyframes pulse
+{
+    0%, 100% { transform: scale(1);}
+    50% {transform: scale(1.01);}
+}
+img:hover
+{
+    animation: bounce 0.5s infinite;
+}
+@keyframes bounce
+{
+    0% { transform: translateY(0);}
+    40% { transform: translateY(-20px);}
+    60% { transform: translateY(-10px);}
+}
