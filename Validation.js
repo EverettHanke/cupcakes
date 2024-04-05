@@ -1,3 +1,7 @@
+/*
+EVERETT HANKE
+SDEV 328
+ */
 let submitButton = document.getElementById('submitBtn');
 
 submitButton.addEventListener("click", function (event) {
